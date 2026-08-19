@@ -3,6 +3,7 @@
 config QCOM_MEM_BUF
 	tristate "Qualcomm Technologies, Inc. Memory Buffer Sharing Driver"
 	select QCOM_MEM_BUF_DEV
+	select DMA_SHARED_BUFFER
 	help
 	  Add support for lending memory from one virtual machine to another.
 	  This driver communicates with the hypervisor, as well as other

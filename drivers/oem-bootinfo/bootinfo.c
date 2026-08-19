@@ -108,7 +108,7 @@ EXPORT_SYMBOL(touch_version);
 //extern char panel_name_find[128];
 char panel_name_find[128] = "lcd unknow";
 EXPORT_SYMBOL(panel_name_find);
-extern char haptic_info[64];
+char haptic_info[64] = "unknown";
 //char haptic_info[128] = "hapic unknow";
 char audio_info[128] = "audio unknow";
 EXPORT_SYMBOL(audio_info);
