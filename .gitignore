@@ -175,3 +175,9 @@ sphinx_*/
 
 # Rust analyzer configuration
 /rust-project.json
+
+# local build artifacts
+/toolchain/
+/saved-images/
+*.img
+o3_build.log
