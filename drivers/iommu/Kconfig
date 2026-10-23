@@ -417,6 +417,7 @@ config QTI_IOMMU_SUPPORT
 
 config QCOM_IOMMU_UTIL
 	tristate "Support for qcom additions to the iommu framework"
+	select QCOM_SCM
 	help
 	  QCOM iommu drivers support a general set of functionality in
 	  addition to the functions provided by the iommu framework.

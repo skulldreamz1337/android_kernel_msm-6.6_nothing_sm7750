@@ -22,6 +22,8 @@ def define_extras(target, flavor = None, alias = None):
     return
 
 def get_build_config_fragments(target):
+    if target == "kera-le":
+        return ["//common:build.config.nothing.FroggerPro"]
     return []
 
 def get_dtb_list(target):
